@@ -1,0 +1,7 @@
+secretGenerator:
+- name: mysql-pass
+  literals:
+  - password=YOURPASSWORD
+resources:
+  - mysql-deployment.yaml
+  - drupal-deployment.yaml
